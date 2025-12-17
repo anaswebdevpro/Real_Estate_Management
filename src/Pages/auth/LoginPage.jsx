@@ -23,7 +23,7 @@ export default function LoginPage() {
     }),
     onSubmit: (values) => {
       // Mock Login Logic
-      if (values.password === "demo123") {
+      if (values.password === "Pass@123") {
         login({
           id: Date.now().toString(),
           name: "Mohd Anas",
@@ -94,7 +94,7 @@ export default function LoginPage() {
               />
             </div>
             {formik.touched.email && formik.errors.email && (
-              <div  className="text-xs text-red-600 font-medium">
+              <div className="text-xs text-red-600 font-medium">
                 {formik.errors.email}
               </div>
             )}
@@ -117,7 +117,7 @@ export default function LoginPage() {
               />
             </div>
             {formik.touched.password && formik.errors.password && (
-              <div  className="text-xs text-red-600 font-medium">
+              <div className="text-xs text-red-600 font-medium">
                 {formik.errors.password}
               </div>
             )}
