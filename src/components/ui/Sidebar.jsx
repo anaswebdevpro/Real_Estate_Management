@@ -438,8 +438,8 @@ export function Sidebar({ isOpen, onClose }) {
               </div>
 
               <div className="pt-2">
-                <label className="text-[10px] uppercase tracking-widest text-zinc-600 font-bold mb-2 block px-1">
-                  Developer Mode
+                <label className="text-[10px] uppercase tracking-widest text-orange-600 font-bold mb-2 block px-1">
+                  Switch Role
                 </label>
                 <select
                   className="w-full text-xs p-2 border border-white/10 rounded bg-black/20 text-zinc-400 focus:text-white focus:bg-black/40 focus:border-primary/50 transition-all outline-none"

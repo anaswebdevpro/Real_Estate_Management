@@ -31,6 +31,7 @@
     --border: #e8ecfc;
     --input: #e8ecfc;
     --ring: #4f8fff;
+    --button:#0A0A0A;
 
     --radius: 0.5rem;
   }
@@ -63,6 +64,8 @@
     --border: #2a3447;
     --input: #2a3447;
     --ring: #d4e0f7;
+    --button:#CCCCCC;
+    
   }
 }
 

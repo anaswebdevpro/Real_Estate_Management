@@ -113,7 +113,7 @@ export function TopNavbar({ onMenuClick }) {
                   className="fixed inset-0 z-40"
                   onClick={() => setShowProfileMenu(false)}
                 />
-                <div className="absolute right-0 mt-2 w-56 rounded-xl border bg-card p-2 shadow-xl shadow-black/5 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+                <div className="absolute right-0 mt-2 w-56 rounded-xl border bg-[var(--background)] p-2 shadow-xl shadow-black/5 z-50 animate-in fade-in slide-in-from-top-2 duration-200">
                   <div className="px-2 py-1.5 mb-1 border-b">
                     <p className="font-semibold text-sm">My Account</p>
                   </div>
