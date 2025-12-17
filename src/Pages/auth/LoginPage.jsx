@@ -33,7 +33,7 @@ export default function LoginPage() {
         });
         navigate("/");
       } else {
-        setError("Invalid credentials. Use password: demo123");
+        setError("Invalid credentials. Use password: Pass@123");
       }
     },
   });
@@ -113,7 +113,7 @@ export default function LoginPage() {
                 type="password"
                 {...formik.getFieldProps("password")}
                 className="w-full pl-9 pr-3 py-2 border rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary/20"
-                placeholder="Enter demo123"
+                placeholder="Enter Pass@123"
               />
             </div>
             {formik.touched.password && formik.errors.password && (
