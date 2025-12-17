@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import { cn } from "../../utils/cn.js";
 import { useAuth } from "../../contexts/AuthContext";
-import { icon, logo } from "../../assets/index.js";
+import { icon } from "../../assets/index.js";
 
 export function Sidebar({ isOpen, onClose }) {
   const { user, switchRole } = useAuth();
